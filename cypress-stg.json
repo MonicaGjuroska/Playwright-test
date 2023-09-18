@@ -1,0 +1,24 @@
+{
+  "baseUrl": "https://itlabs360-stage.it-labs.io/",
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 10000,
+  "chromeWebSecurity": false,
+  "reporter": "mochawesome",
+  "failOnStatusCode": false,
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
+  "env": {
+    "prod": false,
+    "auto": false,
+    "username": "",
+    "password": "",
+    "domain": "",
+    "lookupsAPI": "https://a7lobwi950-vpce-0d2e04026db59e5e0.execute-api.us-west-2.amazonaws.com/stg",
+    "employeeAPI": "https://3culppulsc-vpce-0d2e04026db59e5e0.execute-api.us-west-2.amazonaws.com/stg/employees",
+    "projectAPI": "https://suike3grk1-vpce-0d2e04026db59e5e0.execute-api.us-west-2.amazonaws.com/stg",
+    "permissionsAPI": "https://le2p2ox4we-vpce-0d2e04026db59e5e0.execute-api.us-west-2.amazonaws.com/stg/permissions",
+    "calendarAPI": "https://0l795bjrmd-vpce-0d2e04026db59e5e0.execute-api.us-west-2.amazonaws.com/stg"
+  }
+}

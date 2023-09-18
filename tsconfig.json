@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "allowJs": true,
+    "noEmit": true,
+    "target": "es5",
+    "types": [
+      "cypress",
+      "node"
+    ],
+    "resolveJsonModule": true,
+    "baseUrl": "https://itlabs360-dev.it-labs.io"
+  },
+  "include": [
+    "cypress/**/*.ts",
+    "cypress/integration/login/login.spec.ts",
+    "cypress/support/index.ts",
+    "cypress/support/commands.ts",
+    "cypress/pageObjects/security/rolepermissions.methods.ts",
+    "cypress/pageObjects/projects/projectslist.methods.ts",
+    "cypress/pageObjects/projects/monthlyreport.element.ts",
+    "cypress/pageObjects/configuration/monthconfigurator.methods.ts",
+    "cypress/pageObjects/login-page.ts",
+    "cypress/pageObjects/employees/employeeslist.elements.ts",
+    "cypress/pageObjects/security/employeepermissions.methods.ts",
+    "cypress/pageObjects/dashboard/dashboard-page.ts",
+    "cypress/pageObjects/benefits/benefits.methods.ts",
+    "cypress/pageObjects/base-page.ts",
+    "cypress/support/helpers/waitHelper.ts",
+    "cypress/support/helpers/validationHelper.ts",
+    "cypress/support/helpers/textboxHelper.ts",
+    "cypress/support/helpers/pageHelper.ts",
+    "cypress/support/helpers/elementHelper.ts",
+    "cypress/support/helpers/dropdownHelper.ts",
+    "cypress/support/helpers/checkBoxHelper.ts",
+    "cypress/plugins/index.ts",
+    "cypress/integration/login/login.spec.ts",
+    "cypress/integration/dashboard/dashboard.spec.ts"
+  ]
+}
